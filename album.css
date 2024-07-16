@@ -1,0 +1,27 @@
+img{
+    width: 230px;
+    height: 230px;
+    border-radius: 30px;
+}
+
+img:hover{
+    transform: scale(2) rotate(360deg);
+    transition: 2s;
+}
+
+.images{
+    position: absolute;
+    top: 95px;
+    left: 15%;
+}
+
+.up{
+    display: inline-flex;
+    gap: 10px;
+}
+
+.down{
+    margin-top: 10px;
+    display: inline-flex;
+    gap: 10px;
+}
